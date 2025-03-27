@@ -5,7 +5,7 @@
 // import { getRandomInterviewCover } from "@/lib/utils";
 
 // export async function POST(request: Request) {
-//   const { type, role, level, techstack, amount, userid } = await request.json();
+//   const { type, role, level, techStack, amount, userid } = await request.json();
 
 //   try {
 //     const { text: questions } = await generateText({
@@ -13,7 +13,7 @@
 //       prompt: `Prepare questions for a job interview.
 //         The job role is ${role}.
 //         The job experience level is ${level}.
-//         The tech stack used in the job is: ${techstack}.
+//         The tech stack used in the job is: ${techStack}.
 //         The focus between behavioural and technical questions should lean towards: ${type}.
 //         The amount of questions required is: ${amount}.
 //         Please return only the questions, without any additional text.
@@ -29,7 +29,7 @@
 //       role: role,
 //       type: type,
 //       level: level,
-//       techstack: techstack.split(","),
+//       techStack: techStack.split(","),
 //       questions: JSON.parse(questions),
 //       userId: userid,
 //       finalized: true,
