@@ -95,5 +95,5 @@ interface InterviewFormProps {
 }
 
 interface TechIconProps {
-  techstack: string[];
+  techStack: string[];
 }
