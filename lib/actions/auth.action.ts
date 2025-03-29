@@ -120,12 +120,10 @@ export async function getCurrentUser(): Promise<User | null> {
   } catch (error) {
     console.log(error);
 
-    // Invalid or expired session
     return null;
   }
 }
 
-// Check if user is authenticated
 export async function isAuthenticated() {
   const user = await getCurrentUser();
   return !!user;
