@@ -13,7 +13,7 @@ const InterviewCard = async ({
   userId,
   role,
   type,
-  techStack,
+  techstack,
   createdAt,
 }: InterviewCardProps) => {
   // const feedback =
@@ -84,7 +84,7 @@ const InterviewCard = async ({
         </div>
 
         <div className="flex flex-row justify-between">
-          <DisplayTechIcons techStack={techStack} />
+          <DisplayTechIcons techstack={techstack} />
 
           {/* <Button className="btn-primary">
             <Link
