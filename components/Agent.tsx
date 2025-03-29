@@ -10,10 +10,10 @@ enum CallStatus {
   FINISHED = "FINISHED",
 }
 
-interface SavedMessage {
-  role: "user" | "system" | "assistant";
-  content: string;
-}
+// interface SavedMessage {
+//   role: "user" | "system" | "assistant";
+//   content: string;
+// }
 
 const Agent = ({ userName }: AgentProps) => {
   const callStatus = CallStatus.ACTIVE;
